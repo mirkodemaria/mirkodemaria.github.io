@@ -5,12 +5,12 @@ title: About Me
 
 # About Me
 
-- **Name:** [Your Name]
-- **Profession:** [Your Profession, e.g., Software Developer, Economist, Researcher]
-- **Location:** [Your City/Country]
+- **Name:** Mirko De Maria
+- **Profession:** PhD Student in Economics
+- **Location:** London, England, United Kingdom
 
 ## Connect With Me
-Feel free to reach out:
+<!-- Feel free to reach out:
 - [LinkedIn](https://www.linkedin.com/)
 - [Twitter](https://twitter.com/)
-- [GitHub](https://github.com/)
+- [GitHub](https://github.com/) -->

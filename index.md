@@ -3,12 +3,11 @@ layout: default
 title: Home
 ---
 
-# Welcome to My Website
-
-This is the home of my personal/professional site, powered by [GitHub Pages](https://pages.github.com/) and the Minimal theme.
+# Mirko De Maria
 
 ## About This Website
+I am a PhD student in Economics at Imperial College London.
 
-About here.
+---
 
-## Get Started
+&copy; 2024 [Mirko De Maria]. All rights reserved.
