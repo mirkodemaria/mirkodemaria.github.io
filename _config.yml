@@ -1,6 +1,6 @@
-title: Mirko De Maria
+title: Minimal theme
 logo: /assets/img/logo.png
-description: PhD Student in Economics at Imperial College London
+description: Minimal is a theme for GitHub Pages.
 show_downloads: true
 google_analytics:
-theme: minimal
+theme: jekyll-theme-minimal
