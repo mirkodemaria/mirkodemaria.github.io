@@ -4,8 +4,6 @@ layout: default
 
 NOTE: THIS WEBSITE IS STILL WORK IN PROGRESS
 
-# Mirko De Maria
-
 I am a first-year PhD student in Economics at Imperial College London. I am broadly interested in industrial organization, international trade, and health.
 
 I received my MSc (with Distinction) in Economics from UCL in 2021. Prior to that, I receive my BSc summa cum laude from the Sapienza University of Rome.
