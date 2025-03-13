@@ -2,7 +2,7 @@
 layout: default
 ---
 
-I am a first-year PhD student in Economics at Imperial College London. I conduct research in empirical industrial organization, international trade, and health.
+Welcome! I am a first-year PhD student in Economics at Imperial College London. I conduct research in empirical industrial organization, international trade, and health.
 {: style="text-align: justify"}
 
 I received my MSc (with Distinction) in Economics from UCL in 2021. Prior to that, I receive my BSc summa cum laude from the Sapienza University of Rome.
