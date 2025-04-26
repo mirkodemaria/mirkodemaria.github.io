@@ -16,7 +16,7 @@ I am originally from Rome, Italy.
 
 ## Research
 
-### Work in Progress
+### Selected Work in Progress
 
 How Malleable Are COVID-19-Related Perceptions? Evidence From a Light-Touch Information-&-Sensitization Intervention <span class="C9DxTc " style="background-color:rgb(5, 87, 180); border-radius: 4px; padding: 2px 4px; color:rgb(255, 255, 255); font-family: 'Source Code Pro', Arial; font-variant: normal; font-size: 10pt; font-weight: 700;">DRAFT COMING SOON!</span>
 {: style="text-align: justify; margin-bottom: 2px;"}
