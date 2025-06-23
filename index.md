@@ -18,9 +18,16 @@ I am originally from Rome, Italy.
 
 ### Selected Work in Progress
 
+<p style="margin-bottom:0;">Shared Directors, Shared Gains?</p>
+<font size="2"><p style="margin-bottom:10;">Presented at: 2025 Imperial PhD Student Conference in Economics, 2025 EARIE Summer School*</p></font>
+
 How Malleable Are COVID-19-Related Perceptions? Evidence From a Light-Touch Information-&-Sensitization Intervention <span class="C9DxTc " style="background-color:rgb(5, 87, 180); border-radius: 4px; padding: 2px 4px; color:rgb(255, 255, 255); font-family: 'Source Code Pro', Arial; font-variant: normal; font-size: 10pt; font-weight: 700;">DRAFT COMING SOON!</span>
 {: style="text-align: justify; margin-bottom: 2px;"}
-*with <a href="http://gabriellaconti.org/">Gabriella Conti</a> and <a href="https://sites.google.com/site/pgiustinelli/home">Pamela Giustinelli</a>*
+<p style="margin-bottom:0;"><em>with <a href="http://gabriellaconti.org/">Gabriella Conti</a> and <a href="https://sites.google.com/site/pgiustinelli/home">Pamela Giustinelli</a></em></p>
+<font size="2"><p style="margin-bottom:10;">Presented at: 2024 Workshop on the Economics of Pandemic Preparedness</p></font>
+
+<font size="2"><p style="margin-bottom:10;">* = scheduled</p></font>
+
 {: style="text-align: justify"}
 
 ## Teaching
