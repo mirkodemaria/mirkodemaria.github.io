@@ -41,3 +41,7 @@ Business Economics (BSc), 2023
 **UCL** (Teaching Assistant)
 {: style="text-align: justify; margin-bottom: 3px;"}
 Introductory Economics (BSc), 2021, 2022
+
+<div style="margin-top:12px;"></div>
+## Public Goods
+The [Discrete Game Identification Toolkit](https://github.com/mirkodemaria/discrete-game-toolkit) is a Python toolbox for analysing identification in static discrete games of incomplete information. It includes a replication and extension of Aguirregabiria & Mira (2019).
