@@ -8,7 +8,7 @@ Welcome! I am a first-year PhD student in Economics at Imperial College London. 
 I received my MSc (with Distinction) in Economics from UCL in 2021. Prior to that, I receive my BSc summa cum laude from the Sapienza University of Rome.
 {: style="text-align: justify"}
 
-Between 2021 and 2022, I was a pre-doctoral research fellow at Yale University's Department of Economics. Also at Yale, I was a graduate visiting student at the Department of Mathematics.
+Between 2022 and 2023, I was a pre-doctoral research fellow at Yale University's Department of Economics. Also at Yale, I was a graduate visiting student at the Department of Mathematics.
 {: style="text-align: justify"}
 
 I am originally from Rome, Italy.
