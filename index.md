@@ -33,7 +33,7 @@ How Malleable Are COVID-19-Related Perceptions? Evidence From a Light-Touch Info
 ## Teaching
 
 **Imperial College London** (Teaching Assistant)
-<!-- {: style="text-align: justify; margin-bottom: 3px;"}
+{: style="text-align: justify; margin-bottom: 3px;"}
 Math Camp (PhD), 2025 -->
 {: style="text-align: justify; margin-bottom: 3px;"}
 Business Economics (Executive MBA), 2024
