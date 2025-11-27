@@ -41,26 +41,48 @@
 
         {% if site.show_downloads %}
         <ul class="downloads">
-          <li>
-            <a href="https://drive.google.com/file/d/1v_Tx8w-5mhy3SQjbKFnTG6hXUhXkh0v7/view">
-              <strong>CV</strong>
-            </a>
-          </li>
-          <li>
-            <a href="https://x.com/Mirko_De_Maria">
-              <img src="{{ '/assets/img/twitter_x_icon.png' | relative_url }}" 
-                   alt="X/Twitter" 
-                   style="width: 40px; height: auto;"/>
-            </a>
-          </li>
-          <li>
+        <li>
+        <a href="https://drive.google.com/file/d/1v_Tx8w-5mhy3SQjbKFnTG6hXUhXkh0v7/view">
+        <strong>CV</strong>
+         </a>
+        </li>
+        <li>
+          <a href="https://github.com/mirkodemaria">
+          <img class="icon-github" 
+           src="{{ '/assets/img/github_v3.png' | relative_url }}" 
+           alt="GitHub"
+           style="width: 17px; height: auto;"/>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/mirko-de-maria/">
+          <img class="icon-linkedin" 
+           src="{{ '/assets/img/linkedin_icon.png' | relative_url }}" 
+           alt="LinkedIn"
+           style="width: 21px; height: auto;"/>
+          </a>
+        </li>
+        <li>
+          <a href="https://x.com/Mirko_De_Maria">
+          <img src="{{ '/assets/img/twitter_x_icon.png' | relative_url }}" 
+           alt="X/Twitter">
+          </a>
+        </li>
+        <li>
+          <a href="https://bsky.app/profile/mirkodemaria.bsky.social">
+          <img src="{{ '/assets/img/bluesky_logo.png' | relative_url }}" 
+           alt="Bluesky">
+          </a>
+        </li>
+      </ul>
+
+<!-- <li>
             <a href="https://www.linkedin.com/in/mirko-de-maria/">
               <img src="{{ '/assets/img/linkedin_icon.png' | relative_url }}" 
                    alt="LinkedIn" 
                    style="width: 30px; height: auto;"/>
             </a>
-          </li>
-        </ul>
+          </li> -->
 
         <img src="{{ '/assets/img/IMPERIAL_logo_RGB_Blue.jpg' }}" alt="Imperial Logo" class="center">
         {% endif %}

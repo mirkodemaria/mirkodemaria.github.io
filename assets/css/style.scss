@@ -2,3 +2,54 @@
 ---
 
 @import "jekyll-theme-minimal";
+
+ul.downloads {
+  /* keep the Minimal look but control the total width */
+  background: #f4f4f4;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+
+  max-width: 270px;        /* tweak this (e.g. 300px) if you want it a bit wider */
+  margin: 10px auto;          /* center under your name */
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+}
+
+/* Each item: equal width, centered, with separators */
+ul.downloads li {
+  flex: 1 0 0;             /* 5 equal cells */
+  box-sizing: border-box;
+
+  float: none !important;  /* kill theme float */
+  width: auto !important;  /* kill theme fixed 89px width */
+
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-right: 1px solid #e0e0e0 !important;
+}
+
+/* No border on the very last item so the outer pill still looks clean */
+ul.downloads li:last-child {
+  border-right: none !important;
+}
+
+/* Make all icons the same box size */
+ul.downloads img {
+  width: 28px;
+  height: 28px;
+  display: block;
+  object-fit: contain;
+}
+
+ul.downloads img.icon-linkedin {
+  margin-top: 4px;   /* adjust 1–3px to taste */
+}
+
+ul.downloads img.icon-github{
+  margin-top: 6px;   /* adjust 1–3px to taste */
+}
