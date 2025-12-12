@@ -19,7 +19,7 @@ I am originally from Rome, Italy.
 ### Selected Work in Progress
 
 <p style="margin-bottom:0;">• Shared Directors, Shared Gains?</p>
-<font size="2"><p style="margin-bottom:10;">Presented at: Imperial College London, 2025 EARIE Summer School (Valencia, Spain), CMA-Durham Workshop on Productivity, Business Dynamism and Market Power (Durham, UK), 2025 CEPR Paris Symposium (Paris, France)‡, 2025 Econometric Society European Winter Meeting (Nicosia, Cyprus) </p></font>
+<font size="2"><p style="margin-bottom:10;">Presented at: Imperial College London, 2025 EARIE Summer School (Valencia, Spain), CMA-Durham Workshop on Productivity, Business Dynamism and Market Power (Durham, UK), 2025 European Winter Meeting of the Econometric Society (Nicosia, Cyprus), 2025 CEPR Paris Symposium (Paris, France)‡ </p></font>
 
 <p style="margin-bottom:0;">• How Malleable Are COVID-19-Related Perceptions? Evidence From a Light-Touch Information-&-Sensitization Intervention <span class="C9DxTc " style="background-color:rgb(5, 87, 180); border-radius: 4px; padding: 2px 4px; color:rgb(255, 255, 255); font-family: 'Source Code Pro', Arial; font-variant: normal; font-size: 10pt; font-weight: 700;">DRAFT COMING SOON!</span></p>
 {: style="text-align: justify; margin-bottom: 2px;"}
