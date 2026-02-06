@@ -2,10 +2,10 @@
 layout: default
 ---
 
-Welcome! I am a second-year PhD student in Economics at Imperial College London. My main field of research is <b>empirical industrial organization</b>, which I use to study research questions in the economics of innovation, competition policy, and international trade.
+Welcome! I am a second-year PhD student in Economics at Imperial College London. My main field of research is empirical industrial organization, and I study how market power shapes innovation incentives and the direction of technological change.
 {: style="text-align: justify"}
 
-I received my MSc (with Distinction) in Economics from UCL in 2021. Prior to that, I receive my BSc summa cum laude from the Sapienza University of Rome.
+I received my MSc (with Distinction) in Economics from UCL and my BSc summa cum laude from the Sapienza University of Rome.
 {: style="text-align: justify"}
 
 Between 2022 and 2023, I was a pre-doctoral research fellow at Yale University's Department of Economics. Also at Yale, I was a graduate visiting student at the Department of Mathematics.
@@ -17,6 +17,8 @@ I am originally from Rome, Italy.
 ## Research
 
 ### Selected Work in Progress
+
+<p style="margin-bottom:10;">• Market Power, Entry Threats, and the Direction of Technological Change</p>
 
 <p style="margin-bottom:0;">• Shared Directors, Shared Gains?</p>
 <font size="2"><p style="margin-bottom:10;">Presented at: Imperial College London, 2025 EARIE Summer School (Valencia, Spain), CMA-Durham Workshop on Productivity, Business Dynamism and Market Power (Durham, UK), 2025 European Winter Meeting of the Econometric Society (Nicosia, Cyprus), 2025 CEPR Paris Symposium (Paris, France)‡ </p></font>
