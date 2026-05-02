@@ -17,14 +17,16 @@ During the 2026/27 academic year, I will visit Columbia University (hosted by An
 
 ## Research
 
+### Working Papers
+
+<p style="margin-bottom:0;"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6693818">• Interlocking Directorates, Innovation, and Knowledge Transmission</a></p> 
+<!-- <font size="2"><p style="margin-bottom:0;"><em>(Draft Available Upon Request)</em></p></font> -->
+<font size="2"><p style="margin-bottom:10; text-align: justify;">Presented at: Imperial College London, 2025 EARIE Summer School (Valencia, Spain), CMA-Durham Workshop on Productivity, Business Dynamism and Market Power (Durham, England, UK), 2025 European Winter Meeting of the Econometric Society (Nicosia, Cyprus), 2025 CEPR Paris Symposium (Paris, France)‡, 2026 North American Summer Meeting of the Econometric Society (Atlanta, Georgia, USA)*, 2026 Annual Conference of the Royal Economic Society (Newcastle, England, UK)*</p></font>
+
 ### Selected Work in Progress
 
 <p style="margin-bottom:0;">• Market Power, Venture Capital, and the Direction of Technological Change</p>
 <font size="2"><p style="margin-bottom:10;">Presented at: Imperial College London*</p></font>
-
-<p style="margin-bottom:0;">• Interlocking Directorates, Innovation, and the Flow of Ideas</p> 
-<font size="2"><p style="margin-bottom:0;"><em>(Draft Available Upon Request)</em></p></font>
-<font size="2"><p style="margin-bottom:10; text-align: justify;">Presented at: Imperial College London, 2025 EARIE Summer School (Valencia, Spain), CMA-Durham Workshop on Productivity, Business Dynamism and Market Power (Durham, England, UK), 2025 European Winter Meeting of the Econometric Society (Nicosia, Cyprus), 2025 CEPR Paris Symposium (Paris, France)‡, 2026 North American Summer Meeting of the Econometric Society (Atlanta, Georgia, USA)*, 2026 Annual Conference of the Royal Economic Society (Newcastle, England, UK)*</p></font>
 
 <p style="margin-bottom:0;">• Partial Identification of AKM Models</p> 
 <!-- <font size="2"><p style="margin-bottom:0;"><em>(Draft Available Upon Request)</em></p></font> -->
