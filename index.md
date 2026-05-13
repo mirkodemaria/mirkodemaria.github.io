@@ -55,7 +55,7 @@ During the 2026/27 academic year, I will visit Columbia University (hosted by An
 
 ### Selected Work in Progress
 
-<p style="margin-bottom:0;">• Market Power, Venture Capital, and the Technological Progress</p>
+<p style="margin-bottom:0;">• Market Power, Venture Capital, and Technological Progress</p>
 <font size="2"><p style="margin-bottom:10;">Presentations: Imperial College London</p></font>
 
 <p style="margin-bottom:0;">• Partial Identification of AKM Models</p> 
