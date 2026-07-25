@@ -51,7 +51,7 @@ During the 2026/27 academic year, I will visit Columbia University (hosted by An
   </p>
   </div>
 </details>
-<font size="2"><p style="margin-bottom:10; text-align: justify;">Presentations: Imperial College London, 2025 EARIE Summer School (Valencia, Spain), CMA-Durham Workshop on Productivity, Business Dynamism and Market Power (Durham, England, UK), 2025 European Winter Meeting of the Econometric Society (Nicosia, Cyprus), 2025 CEPR Paris Symposium (Paris, France)‡, 2026 North American Summer Meeting of the Econometric Society (Atlanta, Georgia, USA)*, 2026 Annual Conference of the Royal Economic Society (Newcastle, England, UK)*, 2026 EARIE (Mannheim, Germany)*</p></font>
+<font size="2"><p style="margin-bottom:10; text-align: justify;">Presentations: Imperial College London, 2025 EARIE Summer School (Valencia, Spain), CMA-Durham Workshop on Productivity, Business Dynamism and Market Power (Durham, England, UK), 2025 European Winter Meeting of the Econometric Society (Nicosia, Cyprus), 2025 CEPR Paris Symposium (Paris, France)‡, 2026 North American Summer Meeting of the Econometric Society (Atlanta, Georgia, USA), 2026 Annual Conference of the Royal Economic Society (Newcastle, England, UK), 2026 EARIE (Mannheim, Germany)*, 2026 AEA/ASSA Conference (Washington, DC, USA)*‡</p></font>
 
 ### Selected Work in Progress
 
@@ -89,6 +89,6 @@ Business Economics (BSc), 2023
 {: style="text-align: justify; margin-bottom: 3px;"}
 Introductory Economics (BSc), 2021, 2022
 
-<div style="margin-top:12px; text-align: justify;"></div>
+<!-- <div style="margin-top:12px; text-align: justify;"></div>
 ## Public Goods
-The [Discrete Game Identification Toolkit](https://github.com/mirkodemaria/discrete-game-toolkit) is a Python toolbox for analysing identification in static discrete games of incomplete information. It includes a replication and extension of Aguirregabiria & Mira (2019).
+The [Discrete Game Identification Toolkit](https://github.com/mirkodemaria/discrete-game-toolkit) is a Python toolbox for analysing identification in static discrete games of incomplete information. It includes a replication and extension of Aguirregabiria & Mira (2019). -->
