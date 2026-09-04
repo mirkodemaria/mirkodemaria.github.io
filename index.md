@@ -55,10 +55,10 @@ layout: default
 </style>
 
 <p style="text-align: justify; margin-top: 5px;">
-Welcome! I am a second-year PhD student in Economics at Imperial College London. My main field of research is empirical industrial organization, which I use to study how market power shapes innovation incentives and the direction of technological change.
+Welcome! I am a third-year PhD candidate in Economics at Imperial College London. My main field of research is empirical industrial organization, which I use to study how market power shapes innovation incentives and the direction of technological change.
 </p>
 
-I received my MSc (with Distinction) in Economics from UCL and my BSc summa cum laude from the Sapienza University of Rome. Between 2022 and 2023, I was a pre-doctoral research fellow at Yale University's Department of Economics, and a visiting student at the Department of Mathematics. I am originally from Rome, Italy.
+I hold an MSc (with Distinction) in Economics from UCL and a BSc summa cum laude from the Sapienza University of Rome. Between 2022 and 2023, I was a pre-doctoral research fellow at Yale University's Department of Economics, and a visiting student at the Department of Mathematics. I am originally from Rome, Italy.
 {: style="text-align: justify"}
 
 <!-- My research is financially supported by both the LISS DTP Scholarship and the President's PhD Scholarship. -->
@@ -97,7 +97,7 @@ During the 2026/27 academic year, I will visit Columbia University (hosted by An
 }</pre>
   </div>
 </div>
-<font size="2"><p style="margin-bottom:10; text-align: justify;">Presentations: Imperial College London, 2025 EARIE Summer School (Valencia, Spain), CMA-Durham Workshop on Productivity, Business Dynamism and Market Power (Durham, England, UK), 2025 European Winter Meeting of the Econometric Society (Nicosia, Cyprus), 2025 CEPR Paris Symposium (Paris, France)‡, 2026 North American Summer Meeting of the Econometric Society (Atlanta, Georgia, USA), 2026 Annual Conference of the Royal Economic Society (Newcastle, England, UK), 2026 EARIE (Mannheim, Germany)*, 2026 AEA/ASSA Conference (Washington, DC, USA)*‡</p></font>
+<font size="2"><p style="margin-bottom:10; text-align: justify;">Presentations: Imperial College London, 2025 EARIE Summer School (Valencia, Spain), CMA-Durham Workshop on Productivity, Business Dynamism and Market Power (Durham, England, UK), 2025 European Winter Meeting of the Econometric Society (Nicosia, Cyprus), 2025 CEPR Paris Symposium (Paris, France)‡, 2026 North American Summer Meeting of the Econometric Society (Atlanta, Georgia, USA), 2026 Annual Conference of the Royal Economic Society (Newcastle, England, UK), 2026 EARIE (Mannheim, Germany), 2026 AEA/ASSA Conference (Washington, DC, USA)*‡</p></font>
 
 ### Selected Work in Progress
 
@@ -125,7 +125,7 @@ During the 2026/27 academic year, I will visit Columbia University (hosted by An
 
 **Imperial College London** (Teaching Assistant)
 {: style="text-align: justify; margin-bottom: 3px;"}
-Math Camp (PhD), 2025
+Math Camp (PhD), 2025, 2026
 {: style="text-align: justify; margin-bottom: 3px;"}
 Business Economics (Executive MBA), 2024
 {: style="text-align: justify; margin-bottom: 3px;"}
