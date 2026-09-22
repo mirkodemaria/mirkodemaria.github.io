@@ -15,7 +15,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Mirko De Maria" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","headline":"Mirko De Maria","name":"Mirko De Maria","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/img/photo_website.jpg"}},"url":"/"}</script>
+{"@context":"https://schema.org","@type":"WebSite","headline":"Mirko De Maria","name":"Mirko De Maria","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/img/portrait-720.jpg"}},"url":"/"}</script>
 <!-- End Jekyll SEO tag -->
 
     <link rel="stylesheet" href="/assets/css/style.css?v=">
@@ -37,6 +37,11 @@
 
 
 
+<!-- Editorial type system -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&amp;family=STIX+Two+Text:wght@500;600;700&amp;display=swap" rel="stylesheet">
+
 <!-- You can set your favicon here -->
 <!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
 
@@ -55,160 +60,107 @@
 
   </head>
   <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     <div class="wrapper">
-      <header>
-        <h1>
-          <div align="center">
-            <a href="/">Mirko De Maria</a>
-          </div>
+      <header class="profile-card">
+        <h1 class="site-title">
+          <a href="/">Mirko De Maria</a>
         </h1>
-        
-          <img src="/assets/img/photo_website.jpg" alt="Logo" />
-        
-        <p></p>
-        
-        
-        <div align="center"><font size="2"><p style="margin-top: -10px; margin-bottom: 6px;">PhD Student in Economics</font></p>
-        <div align="center"><font size="2"><p style="margin-top: -10px; margin-bottom: 6px;">Department of Economics and Public Policy</font></p>
-        <div align="center"><font size="2"><p style="margin-top: -10px; margin-bottom: 6px;">Imperial College London</font></p>
-
-        <a href="mailto:m.de-maria@imperial.ac.uk"> <p style="text-align: center; margin-top: 15px;">m.de-maria@imperial.ac.uk</p></a>
-
-        <!--  -->
 
         
-        <ul class="downloads">
-        <li>
-        <a href="https://drive.google.com/file/d/1mfbMPIsZXSdffMehP3dIL7J3stLIOzgZ/view">
-        <strong>CV</strong>
-         </a>
-        </li>
-        <li>
-          <a href="https://github.com/mirkodemaria">
-          <img class="icon-github" 
-           src="/assets/img/github_v3.png" 
-           alt="GitHub"
-           style="width: 17px; height: auto;"/>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/mirko-de-maria/">
-          <img class="icon-linkedin" 
-           src="/assets/img/linkedin_icon.png" 
-           alt="LinkedIn"
-           style="width: 21px; height: auto;"/>
-          </a>
-        </li>
-        <li>
-          <a href="https://x.com/Mirko_De_Maria">
-          <img src="/assets/img/twitter_x_icon.png" 
-           alt="X/Twitter">
-          </a>
-        </li>
-        <li>
-          <a href="https://bsky.app/profile/mirkodemaria.bsky.social">
-          <img src="/assets/img/bluesky_logo.png" 
-           alt="Bluesky">
-          </a>
-        </li>
-      </ul>
+          <picture class="profile-photo">
+            <source
+              type="image/webp"
+              srcset="/assets/img/portrait-360.webp 360w, /assets/img/portrait-720.webp 720w"
+              sizes="(max-width: 480px) calc(100vw - 32px), (max-width: 720px) 300px, (max-width: 1023px) 240px, 270px">
+            <img
+              src="/assets/img/portrait-720.jpg"
+              srcset="/assets/img/portrait-360.jpg 360w, /assets/img/portrait-720.jpg 720w"
+              sizes="(max-width: 480px) calc(100vw - 32px), (max-width: 720px) 300px, (max-width: 1023px) 240px, 270px"
+              width="720"
+              height="480"
+              alt="Portrait of Mirko De Maria"
+              decoding="async"
+              fetchpriority="high">
+          </picture>
+        
 
-<!-- <li>
-            <a href="https://www.linkedin.com/in/mirko-de-maria/">
-              <img src="/assets/img/linkedin_icon.png" 
-                   alt="LinkedIn" 
-                   style="width: 30px; height: auto;"/>
-            </a>
-          </li> -->
+        
 
-        <img src="/assets/img/IMPERIAL_logo_RGB_Blue.jpg" alt="Imperial Logo" class="center">
+        
+
+        <div class="profile-details">
+          <p>PhD Student in Economics</p>
+          <p>Department of Economics and Public Policy</p>
+          <p>Imperial College London</p>
+        </div>
+
+        <a class="profile-email" href="mailto:m.de-maria@imperial.ac.uk">m.de-maria@imperial.ac.uk</a>
+
+        <nav class="site-nav" aria-label="Page sections">
+          <a href="/#research" data-section-link="research">Research</a>
+          <a href="/#teaching" data-section-link="teaching">Teaching</a>
+        </nav>
+
+        
+          <nav class="profile-links" aria-label="Profile links">
+            <ul class="downloads">
+              <li><a href="https://drive.google.com/file/d/1mfbMPIsZXSdffMehP3dIL7J3stLIOzgZ/view">CV</a></li>
+              <li><a href="mailto:m.de-maria@imperial.ac.uk">Contact</a></li>
+              <li><a href="https://github.com/mirkodemaria" rel="me">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/mirko-de-maria/" rel="me">LinkedIn</a></li>
+            </ul>
+          </nav>
+
+          <picture class="institution-logo">
+            <source
+              type="image/webp"
+              srcset="/assets/img/imperial-wordmark-320.webp 320w, /assets/img/imperial-wordmark-640.webp 640w"
+              sizes="(max-width: 720px) 200px, (max-width: 1023px) 180px, 200px">
+            <img
+              src="/assets/img/imperial-wordmark-640.png"
+              srcset="/assets/img/imperial-wordmark-320.png 320w, /assets/img/imperial-wordmark-640.png 640w"
+              sizes="(max-width: 720px) 200px, (max-width: 1023px) 180px, 200px"
+              width="640"
+              height="81"
+              alt="Imperial College London"
+              loading="lazy"
+              decoding="async">
+          </picture>
         
       </header>
-      <section>
 
-      <style>
-  summary.abstract-toggle {
-    list-style: none;
-  }
-
-  /* summary.abstract-toggle::-webkit-details-marker {
-    display: none;
-  } */
-
-  .paper-actions {
-    color: #000080;
-    font-size: 12px;
-    margin-top: -2px;
-    margin-bottom: 0px;
-  }
-
-  .paper-toggle {
-    display: none;
-  }
-
-  .paper-action-link {
-    color: #000080;
-    cursor: pointer;
-    font-size: 12px;
-    text-decoration: none;
-  }
-
-  .paper-action-panel {
-    background-color: #f7f7f7;
-    border: 1px solid #faf8f2;
-    border-radius: 6px;
-    color: #000000;
-    display: none;
-    margin-top: 6px;
-    margin-bottom: 8px;
-    padding: 10px 12px;
-  }
-
-  #abstract-interlocking:checked ~ .abstract-panel,
-  #bibtex-interlocking:checked ~ .bibtex-panel {
-    display: block;
-  }
-
-  .bibtex-panel pre {
-    font-family: Consolas, "Liberation Mono", Menlo, monospace;
-    font-size: 12px;
-    line-height: 1.45;
-    margin: 0;
-    white-space: pre-wrap;
-  }
-</style>
-
-<p style="text-align: justify; margin-top: 5px;">
-Welcome! I am a second-year PhD student in Economics at Imperial College London. My main field of research is empirical industrial organization, which I use to study how market power shapes innovation incentives and the direction of technological change.
+      <main id="main-content" class="site-content" tabindex="-1">
+        <p class="intro-lede">
+Hi! I am a third-year PhD candidate in Economics at Imperial College London. My main field is empirical industrial organization, which I use to study how market power shapes innovation incentives and the direction of technological change.
 </p>
 
-<p style="text-align: justify">I received my MSc (with Distinction) in Economics from UCL and my BSc summa cum laude from the Sapienza University of Rome. Between 2022 and 2023, I was a pre-doctoral research fellow at Yale University’s Department of Economics, and a visiting student at the Department of Mathematics. I am originally from Rome, Italy.</p>
+<p>I was a pre-doctoral research fellow at Yale. I hold an MSc in Economics from UCL and a BSc summa cum laude from the Sapienza University of Rome.
+<!-- I am originally from Rome, Italy. --></p>
 
 <!-- My research is financially supported by both the LISS DTP Scholarship and the President's PhD Scholarship. -->
-<!-- {: style="text-align: justify"} -->
 
 <!-- I am originally from Rome, Italy. -->
-<!-- {: style="text-align: justify"} -->
 
-<p style="text-align: justify">During the 2026/27 academic year, I will visit Columbia University (hosted by Andrea Prat) and MIT (hosted by Daron Acemoglu).</p>
+<p>During the 2026/27 academic year, I will visit Columbia University (hosted by Andrea Prat) and MIT (hosted by Daron Acemoglu).</p>
 
 <h2 id="research">Research</h2>
 
 <h3 id="working-papers">Working Papers</h3>
 
-<p style="margin-bottom:0;"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6693818">• Interlocking Directorates, Innovation, and Knowledge Transmission</a></p>
-<div class="paper-actions">
-  <input type="checkbox" id="abstract-interlocking" class="paper-toggle" onchange="if (this.checked) document.getElementById('bibtex-interlocking').checked = false;" />
-  <input type="checkbox" id="bibtex-interlocking" class="paper-toggle" onchange="if (this.checked) document.getElementById('abstract-interlocking').checked = false;" />
-  [<label for="abstract-interlocking" class="paper-action-link">Abstract</label><span> | </span><label for="bibtex-interlocking" class="paper-action-link">BibTeX</label>]
+<p class="paper-title"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6693818">• Interlocking Directorates, Innovation, and Knowledge Transmission</a></p>
+<div class="paper-actions" data-paper-actions="">
+  <div class="paper-action-buttons" role="group" aria-label="Paper details">
+    <span class="paper-action-separator" aria-hidden="true">[</span><button id="abstract-interlocking-button" type="button" class="paper-action-button" aria-expanded="false" aria-controls="abstract-interlocking">Abstract</button><span class="paper-action-separator" aria-hidden="true">&nbsp;|&nbsp;</span><button id="bibtex-interlocking-button" type="button" class="paper-action-button" aria-expanded="false" aria-controls="bibtex-interlocking">BibTeX</button><span class="paper-action-separator" aria-hidden="true">]</span>
+  </div>
 
-  <div class="paper-action-panel abstract-panel">
-    <p style="font-size:13px; text-align:justify; margin:0;">
+  <div id="abstract-interlocking" class="paper-action-panel abstract-panel" aria-labelledby="abstract-interlocking-button" hidden="">
+    <p class="paper-abstract">
     This paper quantifies how shared board members at competing companies affect innovation. To account for persistent differences in board member ability, I introduce AKM-estimated board member fixed effects as controls in the analysis of interlocks and innovation, using the connectedness of the board member–firm network to separate board member heterogeneity from firm heterogeneity. I show that board interlocks are associated with higher innovative output, which is matched by a parallel increase in cross-citations between the two interlocked partners. However, I provide suggestive evidence that these innovation dynamics are more consistent with strategic patenting or patent monitoring rather than genuine technological learning as the dominant mechanism. This is because the composition of those cross-citations does not tilt toward newly reached partner patents, newly reached technology classes, or technologically close inventions. Rather, the stronger responses are concentrated in citations to partner patents that are older, more prominent, and not technologically proximate to the citing patent.
     </p>
   </div>
 
-  <div class="paper-action-panel bibtex-panel">
+  <div id="bibtex-interlocking" class="paper-action-panel bibtex-panel" aria-labelledby="bibtex-interlocking-button" hidden="">
     <pre>@unpublished{DeMaria2026Interlocking,
   author = {De Maria, Mirko},
   title  = {Interlocking Directorates, Innovation, and Knowledge Transmission},
@@ -219,48 +171,49 @@ Welcome! I am a second-year PhD student in Economics at Imperial College London.
 }</pre>
   </div>
 </div>
-<font size="2"><p style="margin-bottom:10; text-align: justify;">Presentations: Imperial College London, 2025 EARIE Summer School (Valencia, Spain), CMA-Durham Workshop on Productivity, Business Dynamism and Market Power (Durham, England, UK), 2025 European Winter Meeting of the Econometric Society (Nicosia, Cyprus), 2025 CEPR Paris Symposium (Paris, France)‡, 2026 North American Summer Meeting of the Econometric Society (Atlanta, Georgia, USA), 2026 Annual Conference of the Royal Economic Society (Newcastle, England, UK), 2026 EARIE (Mannheim, Germany)*, 2026 AEA/ASSA Conference (Washington, DC, USA)*‡</p></font>
+<p class="paper-meta">Presentations: Imperial College London, 2025 EARIE Summer School (Valencia, Spain), CMA-Durham Workshop on Productivity, Business Dynamism and Market Power (Durham, England, UK), 2025 European Winter Meeting of the Econometric Society (Nicosia, Cyprus), 2025 CEPR Paris Symposium (Paris, France)‡, 2026 North American Summer Meeting of the Econometric Society (Atlanta, Georgia, USA), 2026 Annual Conference of the Royal Economic Society (Newcastle, England, UK), 2026 EARIE (Mannheim, Germany), 2026 AEA/ASSA Conference (Washington, DC, USA)*‡</p>
 
 <h3 id="selected-work-in-progress">Selected Work in Progress</h3>
 
-<p style="margin-bottom:0;">• Market Power, Venture Capital, and Technological Progress</p>
-<font size="2"><p style="margin-bottom:10;">Presentations: Imperial College London</p></font>
+<p class="paper-title">• Market Power, Venture Capital, and Technological Progress</p>
+<p class="paper-meta">Presentations: Imperial College London</p>
 
-<p style="margin-bottom:0;">• Partial Identification of AKM Models</p>
-<!-- <font size="2"><p style="margin-bottom:0;"><em>(Draft Available Upon Request)</em></p></font> -->
-<font size="2"><p style="margin-bottom:10;">Presentations: Imperial College London</p></font>
+<p class="paper-title">• Partial Identification of AKM Models</p>
+<p class="paper-meta">Presentations: Imperial College London</p>
 
-<h3 id="pre-phd-research">Pre-PhD Research</h3>
+<!--
+### Pre-PhD Research
 
-<p style="margin-bottom:0;">• One-Size-Fits-Some: Insights from a Randomized COVID-19 Intervention</p>
-<!-- <p style="margin-bottom:0;"><span class="C9DxTc " style="background-color:rgb(5, 87, 180); border-radius: 4px; padding: 2px 4px; color:rgb(255, 255, 255); font-family: 'Source Code Pro', Arial; font-variant: normal; font-size: 10pt; font-weight: 700;">DRAFT COMING SOON!</span></p> -->
-<p style="margin-bottom:0;"><em>with <a href="http://gabriellaconti.org/">Gabriella Conti</a> and <a href="https://sites.google.com/site/pgiustinelli/home">Pamela Giustinelli</a></em></p>
-<font size="2"><p style="margin-bottom:10;">Presentations: 2024 Workshop on the Economics of Pandemic Preparedness (Stockholm, Sweden)</p></font>
+<p class="paper-title">• One-Size-Fits-Some: Insights from a Randomized COVID-19 Intervention</p>
+<p class="draft-label">DRAFT COMING SOON!</p>
+<p class="paper-byline"><em>with <a href="http://gabriellaconti.org/">Gabriella Conti</a> and <a href="https://sites.google.com/site/pgiustinelli/home">Pamela Giustinelli</a></em></p>
+<p class="paper-meta">Presentations: 2024 Workshop on the Economics of Pandemic Preparedness (Stockholm, Sweden)</p>
+-->
 
-<!-- <font size="2"><p style="margin-bottom:10;">* = scheduled, ‡ = poster</p></font> -->
-<font size="2"><p style="margin-bottom:10;">‡ = poster, * = scheduled</p></font>
+<p class="paper-meta">‡ = poster, * = scheduled</p>
 
-<h2 style="text-align: justify" id="teaching">Teaching</h2>
+<h2 id="teaching">Teaching</h2>
 
-<p style="text-align: justify; margin-bottom: 3px;"><strong>Imperial College London</strong> (Teaching Assistant)</p>
-<p style="text-align: justify; margin-bottom: 3px;">Math Camp (PhD), 2025</p>
-<p style="text-align: justify; margin-bottom: 3px;">Business Economics (Executive MBA), 2024</p>
+<p class="teaching-line"><strong>Imperial College London</strong> (Teaching Assistant)</p>
+<p class="teaching-line">Math Camp (PhD), 2025, 2026</p>
+<p class="teaching-line">Business Economics (Executive MBA), 2024</p>
 <p>Business Economics (BSc), 2023</p>
 
-<p style="text-align: justify; margin-bottom: 3px;"><strong>UCL</strong> (Teaching Assistant)</p>
+<p class="teaching-line"><strong>UCL</strong> (Teaching Assistant)</p>
 <p>Introductory Economics (BSc), 2021, 2022</p>
 
-<!-- <div style="margin-top:12px; text-align: justify;"></div>
+<!-- <div class="public-goods-spacer"></div>
 ## Public Goods
 The [Discrete Game Identification Toolkit](https://github.com/mirkodemaria/discrete-game-toolkit) is a Python toolbox for analysing identification in static discrete games of incomplete information. It includes a replication and extension of Aguirregabiria & Mira (2019). -->
 
+      </main>
 
-      </section>
-      <footer>
+      <footer class="site-footer">
         
-        <!-- <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p> -->
       </footer>
     </div>
+    <script src="/assets/js/site-navigation.js"></script>
+    <script src="/assets/js/paper-actions.js"></script>
     <script src="/assets/js/scale.fix.js"></script>
   </body>
 </html>

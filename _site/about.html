@@ -10,14 +10,12 @@
 <meta name="generator" content="Jekyll v3.10.0" />
 <meta property="og:title" content="About Me" />
 <meta property="og:locale" content="en_US" />
-<link rel="canonical" href="http://localhost:4002/about.html" />
-<meta property="og:url" content="http://localhost:4002/about.html" />
 <meta property="og:site_name" content="Mirko De Maria" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="About Me" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","headline":"About Me","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4002/assets/img/photo_website.jpg"}},"url":"http://localhost:4002/about.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","headline":"About Me","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/img/portrait-720.jpg"}},"url":"/about.html"}</script>
 <!-- End Jekyll SEO tag -->
 
     <link rel="stylesheet" href="/assets/css/style.css?v=">
@@ -39,6 +37,11 @@
 
 
 
+<!-- Editorial type system -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&amp;family=STIX+Two+Text:wght@500;600;700&amp;display=swap" rel="stylesheet">
+
 <!-- You can set your favicon here -->
 <!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
 
@@ -57,78 +60,78 @@
 
   </head>
   <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     <div class="wrapper">
-      <header>
-        <h1>
-          <div align="center">
-            <a href="http://localhost:4002/">Mirko De Maria</a>
-          </div>
+      <header class="profile-card">
+        <h1 class="site-title">
+          <a href="/">Mirko De Maria</a>
         </h1>
-        
-          <img src="/assets/img/photo_website.jpg" alt="Logo" />
-        
-        <p></p>
-        
-        
-        <div align="center"><font size="2"><p style="margin-top: -10px; margin-bottom: 6px;">PhD Student in Economics</font></p>
-        <div align="center"><font size="2"><p style="margin-top: -10px; margin-bottom: 6px;">Department of Economics and Public Policy</font></p>
-        <div align="center"><font size="2"><p style="margin-top: -10px; margin-bottom: 6px;">Imperial College London</font></p>
-
-        <a href="mailto:m.de-maria@imperial.ac.uk"> <p style="text-align: center; margin-top: 15px;">m.de-maria@imperial.ac.uk</p></a>
-
-        <!--  -->
 
         
-        <ul class="downloads">
-        <li>
-        <a href="https://drive.google.com/file/d/1Zny1QAJikULiunGxYnxRGSFPoPwAxayG/view?usp=sharing">
-        <strong>CV</strong>
-         </a>
-        </li>
-        <li>
-          <a href="https://github.com/mirkodemaria">
-          <img class="icon-github" 
-           src="/assets/img/github_v3.png" 
-           alt="GitHub"
-           style="width: 17px; height: auto;"/>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/mirko-de-maria/">
-          <img class="icon-linkedin" 
-           src="/assets/img/linkedin_icon.png" 
-           alt="LinkedIn"
-           style="width: 21px; height: auto;"/>
-          </a>
-        </li>
-        <li>
-          <a href="https://x.com/Mirko_De_Maria">
-          <img src="/assets/img/twitter_x_icon.png" 
-           alt="X/Twitter">
-          </a>
-        </li>
-        <li>
-          <a href="https://bsky.app/profile/mirkodemaria.bsky.social">
-          <img src="/assets/img/bluesky_logo.png" 
-           alt="Bluesky">
-          </a>
-        </li>
-      </ul>
+          <picture class="profile-photo">
+            <source
+              type="image/webp"
+              srcset="/assets/img/portrait-360.webp 360w, /assets/img/portrait-720.webp 720w"
+              sizes="(max-width: 480px) calc(100vw - 32px), (max-width: 720px) 300px, (max-width: 1023px) 240px, 270px">
+            <img
+              src="/assets/img/portrait-720.jpg"
+              srcset="/assets/img/portrait-360.jpg 360w, /assets/img/portrait-720.jpg 720w"
+              sizes="(max-width: 480px) calc(100vw - 32px), (max-width: 720px) 300px, (max-width: 1023px) 240px, 270px"
+              width="720"
+              height="480"
+              alt="Portrait of Mirko De Maria"
+              decoding="async"
+              fetchpriority="high">
+          </picture>
+        
 
-<!-- <li>
-            <a href="https://www.linkedin.com/in/mirko-de-maria/">
-              <img src="/assets/img/linkedin_icon.png" 
-                   alt="LinkedIn" 
-                   style="width: 30px; height: auto;"/>
-            </a>
-          </li> -->
+        
 
-        <img src="/assets/img/IMPERIAL_logo_RGB_Blue.jpg" alt="Imperial Logo" class="center">
+        
+
+        <div class="profile-details">
+          <p>PhD Student in Economics</p>
+          <p>Department of Economics and Public Policy</p>
+          <p>Imperial College London</p>
+        </div>
+
+        <a class="profile-email" href="mailto:m.de-maria@imperial.ac.uk">m.de-maria@imperial.ac.uk</a>
+
+        <nav class="site-nav" aria-label="Page sections">
+          <a href="/#research" data-section-link="research">Research</a>
+          <a href="/#teaching" data-section-link="teaching">Teaching</a>
+        </nav>
+
+        
+          <nav class="profile-links" aria-label="Profile links">
+            <ul class="downloads">
+              <li><a href="https://drive.google.com/file/d/1mfbMPIsZXSdffMehP3dIL7J3stLIOzgZ/view">CV</a></li>
+              <li><a href="mailto:m.de-maria@imperial.ac.uk">Contact</a></li>
+              <li><a href="https://github.com/mirkodemaria" rel="me">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/mirko-de-maria/" rel="me">LinkedIn</a></li>
+            </ul>
+          </nav>
+
+          <picture class="institution-logo">
+            <source
+              type="image/webp"
+              srcset="/assets/img/imperial-wordmark-320.webp 320w, /assets/img/imperial-wordmark-640.webp 640w"
+              sizes="(max-width: 720px) 200px, (max-width: 1023px) 180px, 200px">
+            <img
+              src="/assets/img/imperial-wordmark-640.png"
+              srcset="/assets/img/imperial-wordmark-320.png 320w, /assets/img/imperial-wordmark-640.png 640w"
+              sizes="(max-width: 720px) 200px, (max-width: 1023px) 180px, 200px"
+              width="640"
+              height="81"
+              alt="Imperial College London"
+              loading="lazy"
+              decoding="async">
+          </picture>
         
       </header>
-      <section>
 
-      <h1 id="about-me">About Me</h1>
+      <main id="main-content" class="site-content" tabindex="-1">
+        <h1 id="about-me">About Me</h1>
 
 <ul>
   <li><strong>Name:</strong> Mirko De Maria</li>
@@ -142,13 +145,14 @@
 - [Twitter](https://twitter.com/)
 - [GitHub](https://github.com/) -->
 
+      </main>
 
-      </section>
-      <footer>
+      <footer class="site-footer">
         
-        <!-- <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p> -->
       </footer>
     </div>
+    <script src="/assets/js/site-navigation.js"></script>
+    <script src="/assets/js/paper-actions.js"></script>
     <script src="/assets/js/scale.fix.js"></script>
   </body>
 </html>

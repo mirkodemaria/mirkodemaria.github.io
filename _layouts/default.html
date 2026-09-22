@@ -14,91 +14,92 @@
     {% include head-custom-google-analytics.html %}
   </head>
   <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     <div class="wrapper">
-      <header>
-        <h1>
-          <div align="center">
-            <a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a>
-          </div>
+      <header class="profile-card">
+        <h1 class="site-title">
+          <a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a>
         </h1>
+
         {% if site.logo %}
-          <img src="{{ site.logo | relative_url }}" alt="Logo" />
+          <picture class="profile-photo">
+            <source
+              type="image/webp"
+              srcset="{{ '/assets/img/portrait-360.webp' | relative_url }} 360w, {{ '/assets/img/portrait-720.webp' | relative_url }} 720w"
+              sizes="(max-width: 480px) calc(100vw - 32px), (max-width: 720px) 300px, (max-width: 1023px) 240px, 270px">
+            <img
+              src="{{ '/assets/img/portrait-720.jpg' | relative_url }}"
+              srcset="{{ '/assets/img/portrait-360.jpg' | relative_url }} 360w, {{ '/assets/img/portrait-720.jpg' | relative_url }} 720w"
+              sizes="(max-width: 480px) calc(100vw - 32px), (max-width: 720px) 300px, (max-width: 1023px) 240px, 270px"
+              width="720"
+              height="480"
+              alt="Portrait of Mirko De Maria"
+              decoding="async"
+              fetchpriority="high">
+          </picture>
         {% endif %}
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-        
+
+        {% if site.description %}
+          <p class="site-description">{{ site.description }}</p>
+        {% endif %}
+
         {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
+          <p class="project-link"><a href="{{ site.github.repository_url }}">View the project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
         {% endif %}
-        <div align="center"><font size="2"><p style="margin-top: -10px; margin-bottom: 6px;">PhD Student in Economics</font></p>
-        <div align="center"><font size="2"><p style="margin-top: -10px; margin-bottom: 6px;">Department of Economics and Public Policy</font></p>
-        <div align="center"><font size="2"><p style="margin-top: -10px; margin-bottom: 6px;">Imperial College London</font></p>
 
-        <a href="mailto:m.de-maria@imperial.ac.uk"> <p style="text-align: center; margin-top: 15px;">m.de-maria@imperial.ac.uk</p></a>
+        <div class="profile-details">
+          <p>PhD Student in Economics</p>
+          <p>Department of Economics and Public Policy</p>
+          <p>Imperial College London</p>
+        </div>
 
-        <!-- {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %} -->
+        <a class="profile-email" href="mailto:m.de-maria@imperial.ac.uk">m.de-maria@imperial.ac.uk</a>
+
+        <nav class="site-nav" aria-label="Page sections">
+          <a href="{{ '/' | relative_url }}#research" data-section-link="research">Research</a>
+          <a href="{{ '/' | relative_url }}#teaching" data-section-link="teaching">Teaching</a>
+        </nav>
 
         {% if site.show_downloads %}
-        <ul class="downloads">
-        <li>
-        <a href="https://drive.google.com/file/d/1mfbMPIsZXSdffMehP3dIL7J3stLIOzgZ/view">
-        <strong>CV</strong>
-         </a>
-        </li>
-        <li>
-          <a href="https://github.com/mirkodemaria">
-          <img class="icon-github" 
-           src="{{ '/assets/img/github_v3.png' | relative_url }}" 
-           alt="GitHub"
-           style="width: 17px; height: auto;"/>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/mirko-de-maria/">
-          <img class="icon-linkedin" 
-           src="{{ '/assets/img/linkedin_icon.png' | relative_url }}" 
-           alt="LinkedIn"
-           style="width: 21px; height: auto;"/>
-          </a>
-        </li>
-        <li>
-          <a href="https://x.com/Mirko_De_Maria">
-          <img src="{{ '/assets/img/twitter_x_icon.png' | relative_url }}" 
-           alt="X/Twitter">
-          </a>
-        </li>
-        <li>
-          <a href="https://bsky.app/profile/mirkodemaria.bsky.social">
-          <img src="{{ '/assets/img/bluesky_logo.png' | relative_url }}" 
-           alt="Bluesky">
-          </a>
-        </li>
-      </ul>
+          <nav class="profile-links" aria-label="Profile links">
+            <ul class="downloads">
+              <li><a href="https://drive.google.com/file/d/1mfbMPIsZXSdffMehP3dIL7J3stLIOzgZ/view">CV</a></li>
+              <li><a href="mailto:m.de-maria@imperial.ac.uk">Contact</a></li>
+              <li><a href="https://github.com/mirkodemaria" rel="me">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/mirko-de-maria/" rel="me">LinkedIn</a></li>
+            </ul>
+          </nav>
 
-<!-- <li>
-            <a href="https://www.linkedin.com/in/mirko-de-maria/">
-              <img src="{{ '/assets/img/linkedin_icon.png' | relative_url }}" 
-                   alt="LinkedIn" 
-                   style="width: 30px; height: auto;"/>
-            </a>
-          </li> -->
-
-        <img src="{{ '/assets/img/IMPERIAL_logo_RGB_Blue.jpg' }}" alt="Imperial Logo" class="center">
+          <picture class="institution-logo">
+            <source
+              type="image/webp"
+              srcset="{{ '/assets/img/imperial-wordmark-320.webp' | relative_url }} 320w, {{ '/assets/img/imperial-wordmark-640.webp' | relative_url }} 640w"
+              sizes="(max-width: 720px) 200px, (max-width: 1023px) 180px, 200px">
+            <img
+              src="{{ '/assets/img/imperial-wordmark-640.png' | relative_url }}"
+              srcset="{{ '/assets/img/imperial-wordmark-320.png' | relative_url }} 320w, {{ '/assets/img/imperial-wordmark-640.png' | relative_url }} 640w"
+              sizes="(max-width: 720px) 200px, (max-width: 1023px) 180px, 200px"
+              width="640"
+              height="81"
+              alt="Imperial College London"
+              loading="lazy"
+              decoding="async">
+          </picture>
         {% endif %}
       </header>
-      <section>
 
-      {{ content }}
+      <main id="main-content" class="site-content" tabindex="-1">
+        {{ content }}
+      </main>
 
-      </section>
-      <footer>
+      <footer class="site-footer">
         {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+          <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
-        <!-- <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p> -->
       </footer>
     </div>
+    <script src="{{ "/assets/js/site-navigation.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/paper-actions.js" | relative_url }}"></script>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>
