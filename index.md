@@ -36,7 +36,7 @@ During the 2026/27 academic year, I will visit Columbia University (hosted by An
   <div id="bibtex-interlocking" class="paper-action-panel bibtex-panel" aria-labelledby="bibtex-interlocking-button" hidden>
     <pre>@unpublished{DeMaria2026Interlocking,
   author = {De Maria, Mirko},
-  title  = {Interlocking Directorates, Innovation, and Knowledge Transmission},
+  title  = {Interlocking Directorates and Innovation},
   year   = {2026},
   month  = may,
   note   = {Working paper},
