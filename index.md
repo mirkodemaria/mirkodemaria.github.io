@@ -6,7 +6,7 @@ layout: default
 Hi! I am a third-year PhD candidate in Economics at Imperial College London. My main field is empirical industrial organization, which I use to study how market power shapes innovation incentives and the direction of technological change.
 </p>
 
-I was a pre-doctoral research fellow at Yale. I hold an MSc in Economics from UCL and a BSc summa cum laude from the Sapienza University of Rome.
+I was a pre-doctoral research fellow at Yale. I hold an MSc in Economics from UCL and a BSc in Economics from the Sapienza University of Rome.
 <!-- I am originally from Rome, Italy. -->
 
 <!-- My research is financially supported by both the LISS DTP Scholarship and the President's PhD Scholarship. -->
@@ -29,7 +29,7 @@ During the 2026/27 academic year, I will visit Columbia University (hosted by An
 
   <div id="abstract-interlocking" class="paper-action-panel abstract-panel" aria-labelledby="abstract-interlocking-button" hidden>
     <p class="paper-abstract">
-    This paper quantifies how shared board members at competing companies affect innovation. To account for persistent differences in board member ability, I introduce a new empirical strategy that relies on using estimated board member fixed effects from the AKM model as control variables in a second stage. I show that board interlocks are associated with higher innovative output, which is matched by a parallel increase in cross citations between the two interlocked partners. However, this increase in patent counts is concentrated in continuation patents, which are associated with strategic patenting motives. Furthermore, the cross citations go increasingly towards partner patents that are older, more prominent, and not technologically proximate to the citing patent. Therefore, while board interlocks do increase patents, this paper points to strategic patenting behavior being the dominant mechanism as opposed to technological learning.
+    Connections between competing companies usually affect innovation, but their net effects and mechanisms remain unclear. This paper studies these effects by analyzing a prevalent type of corporate connection: shared board members. To account for persistent differences in board member ability, I introduce a new empirical strategy that uses estimated board member fixed effects from the AKM model as control variables in a second stage. I find that interlocked firms innovate more and cite their interlocked partners’ patents more often. However, these new patents do not have higher market-based values and are increasingly likely to be continuation patents. Cross citations also shift increasingly toward older and more technologically distant partner patents.
     </p>
   </div>
 
