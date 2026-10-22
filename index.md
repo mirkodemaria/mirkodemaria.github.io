@@ -3,7 +3,7 @@ layout: default
 ---
 
 <p class="intro-lede">
-Hi! I am a third-year PhD candidate in Economics at Imperial College London. My main field is empirical industrial organization, which I use to study how market power shapes innovation incentives and the direction of technological change.
+Hi! I am a third-year PhD candidate in Economics at Imperial College London. My main field is empirical industrial organization, which I use to study how market power shapes innovation incentives, the direction of technological change, and global supply chains.
 </p>
 
 I was a pre-doctoral research fellow at Yale. I hold an MSc in Economics from UCL and a BSc in Economics from the Sapienza University of Rome.
